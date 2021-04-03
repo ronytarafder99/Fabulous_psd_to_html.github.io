@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabulous | Web Templates</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+</head>
+
+<body>
+
+    <div class="topbar">
+        <div class="topbar_container cs_container">
+            <div class="topbar_left">
+                <ul>
+                    <li>Sign Up</li>
+                    <li>Login</li>
+                    <li>Rss Feeds</li>
+                    <li>Archived News</li>
+                </ul>
+            </div>
+            <div class="topbar_right">
+                <input type="text">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <header class="cs_container" style="margin-top: 45px;">
+        <div class="logo">
+            <h1>Fabulous</h1>
+            <div class="banner">
+                <img src="./468px.png" alt="">
+            </div>
+        </div>
+    </header>
+    <nav class="cs_container" style="margin-top: 45px; margin-bottom: 45px;">
+        <div class="navigation">
+            <ul>
+                <li>home</li>
+                <li>style demo</li>
+                <li>full width</li>
+                <li>Dropdown</li>
+                <li>Portfolio</li>
+                <li>Gallery</li>
+                <li>Long Text link</li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="slider cs_container">
+        <div class="mySlides fade">
+            <img src="./960px.png" style="width:100%">
+            <div class="text">
+                <div class="slide_cap">Slide 1 Caption</div>
+                <div class="slide_desc">Dapiensociis temper donec auctortortis cumsan et curabitur condis lorem
+                    loborttis
+                    leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem pellus sed.</div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./960px.png" style="width:100%">
+            <div class="text">
+                <div class="slide_cap">Slide 2 Caption</div>
+                <div class="slide_desc">nDapiensociis temper donec auctortortis cumsan et curabitur condis lorem
+                    loborttis
+                    leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem pellus sed.</div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./960px.png" style="width:100%">
+            <div class="text fade">
+                <div class="slide_cap">Slide 3 Caption</div>
+                <div class="slide_desc">cDapiensociis temper donec auctortortis cumsan et curabitur condis lorem
+                    loborttis
+                    leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem pellus sed.</div>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)"><img src="./Left arrow.png" alt=""></a>
+        <a class="next" onclick="plusSlides(1)"><img src="./Right arrow.png" alt=""></a>
+        <div class="dots" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <section class="intro cs_container">
+        <div class="intro_left">
+            <h2>Cursus Penati Saccum
+                Curabitur Nulla.</h2>
+            <p>This is a W3C standards compliant free PSD website template from OS Templates. For full terms of use of
+                this template please read our Website Template Licence. You can use and modify the template for both
+                personal and commercial use. You must keep all copyright information and credit links in the template
+                and associated files. For more free PSD website templates visit OS-Templates.com</p>
+        </div>
+        <div class="intro_right">
+            <div class="flex_item">
+                <div class="photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)"><img src="./225px.png"
+                        alt=""></div>
+                <div class="photo" onmouseover="bigImg2(this)" onmouseout="normalImg2(this)"><img src="./225px.png"
+                        alt=""></div>
+            </div>
+            <div class="flex_item">
+                <div id="int"></div>
+                <div id="int2"></div>
+            </div>
+            <h3>View the gallery here »</h3>
+        </div>
+    </section>
+
+    <footer class="footer_container">
+        <div class="cs_container footer_4_col">
+            <div class="contact">
+                <h2>CONTACT DETAILS</h2>
+                <p>Convallisijusto vestas mus
+                    pellentum aenean sapibulum in
+                    aliquam volut pat integest nulla.</br>
+                    Tel: +8801957-244612</br>
+                    Fax: xxxxx xxxxxxxxxx</br>
+                    Email: ronytarafder99@gmail.com</p>
+            </div>
+            <div class="links">
+                <h2>QUICK LINKS</h2>
+                <p>Link Text Here</p>
+                <p> Link Text Here</p>
+                <p> Link Text Here</p>
+                <p> Link Text Here</p>
+            </div>
+            <div class="blog">
+                <h2>FROM THE BLOG</h2>
+                <h3>Blog Post Title</h3>
+                <h5>Posted by Admin on 00.00.0000</h5>
+                <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed facilispede
+                    estibulum.</p>
+                <h4>Read More »</h4>
+            </div>
+            <div class="newslatter">
+                <h2>GRAB OUR NEWSLETTER</h2>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="button" value="Submit">
+            </div>
+        </div>
+        <div class="cs_container copyright">
+            <p>Copyright © 2021 - All Rights Reserved - Rony T.</p>
+            <p>Template by Rony Tarafder</p>
+        </div>
+    </footer>
+    <script>
+        var x = document.getElementById("int");
+        var y = document.getElementById("int2");
+
+        function bigImg() {
+            x.style.backgroundColor = '#ff4653';
+        }
+
+        function normalImg() {
+            x.style.backgroundColor = '#333333';
+        }
+
+        function bigImg2() {
+            y.style.backgroundColor = '#ff4653';
+        }
+
+        function normalImg2() {
+            y.style.backgroundColor = '#333333';
+        }
+
+        // Sliders Logic
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
